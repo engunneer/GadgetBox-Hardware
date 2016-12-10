@@ -9674,7 +9674,9 @@ Source: http://www.molex.com/pdm_docs/sd/679105700_sd.pdf</description>
 </part>
 <part name="3V3_PWR24" library="Bogdan_Commons" deviceset="3V3" device=""/>
 <part name="GND16" library="GadgetFactory_all" deviceset="GND" device=""/>
-<part name="ICU" library="iCogs" deviceset="ICOG_SOCKET" device="&quot;"/>
+<part name="ICU" library="iCogs" deviceset="ICOG_SOCKET" device="&quot;">
+<attribute name="PARTNO" value="679105700,Molex,DK,WM7125CT-ND ,CONN EDGECARD 52POS R/A GOLD SMD , REF32"/>
+</part>
 <part name="3V3_PWR21" library="Bogdan_Commons" deviceset="3V3" device=""/>
 <part name="GND4" library="GadgetFactory_all" deviceset="GND" device=""/>
 <part name="5V0_PWR2" library="Bogdan_Commons" deviceset="5V0" device=""/>
@@ -11003,7 +11005,9 @@ Source: http://www.molex.com/pdm_docs/sd/679105700_sd.pdf</description>
 </instance>
 <instance part="3V3_PWR24" gate="A" x="73.66" y="93.98" rot="MR0"/>
 <instance part="GND16" gate="A" x="73.66" y="86.36" rot="MR0"/>
-<instance part="ICU" gate="-1" x="119.38" y="-248.92"/>
+<instance part="ICU" gate="-1" x="119.38" y="-248.92">
+<attribute name="PARTNO" x="119.38" y="-248.92" size="5.08" layer="96" display="off"/>
+</instance>
 <instance part="ICU" gate="-2" x="154.94" y="-248.92"/>
 <instance part="ICU" gate="-3" x="119.38" y="-251.46"/>
 <instance part="ICU" gate="-4" x="154.94" y="-251.46"/>
